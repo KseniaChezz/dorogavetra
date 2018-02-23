@@ -1,0 +1,31 @@
+*  {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 768px;
+  display: flex;
+  justify-content: center;
+  font-family: 'PT Sans Caption', sans-serif;
+  font-size: 20px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background-image: url(../images/web.png);
+  background-size: cover; */
+  height: 14000px;
+
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.back {
+  position: absolute;
+  margin: 0 auto;
+  width: 1200px;
+  height: 11858px;
+  background-image: url(../images/web.png);
+  background-size: cover;
+}

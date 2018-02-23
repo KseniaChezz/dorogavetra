@@ -1,0 +1,96 @@
+.menubar, .menubarContact, .menubarMenu {
+  display: inline-flex;
+  justify-content: flex-start;
+  width: 100vw;
+}
+
+.menubar {
+  position: fixed;
+  flex-direction: column;
+  top: 0;
+  z-index: 2;
+}
+
+.menubarContact {
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  padding: 20px;
+  background-color: white;
+}
+
+.menubarMenu {
+  display: inline-flex;
+  justify-content:flex-start;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+  padding: 20px;
+  background-color: black;
+}
+
+
+
+/* Contact */
+
+.menubarContact .phone,
+.menubarContact .mail {
+  display: inline-flex;
+  align-items: center;
+}
+
+.menubarContact .phone {
+  margin-left: 7vw;
+  /* margin-left: 100px; */
+}
+
+.menubarContact .mail {
+  margin-left: 50px;
+}
+
+.menubarContact .phone div {
+  width: 13px;
+  height: 18px;
+  background-image: url(../images/phone.svg);
+  background-size: cover;
+}
+
+.menubarContact .mail div {
+  width: 24px;
+  height: 18px;
+  background-image: url(../images/mail.svg);
+  background-size: cover;
+}
+
+.menubarContact .phone a,
+.menubarContact .mail a {
+  margin-left: 15px;
+}
+
+
+/* Contact */
+.menubarMenu .logo {
+  width: 200px;
+  height: 54px;
+  margin-left: 7vw;
+  /* margin-left: 100px; */
+  background-image: url(../images/logo.svg);
+  background-size: cover;
+}
+
+.menubarMenu .menu {
+  display: inline-flex;
+  justify-content: space-between;
+  width: calc(100vw - 14vw - 190px + 120px);
+  margin-left: 88px;
+  margin-right: 7vw;
+  /* margin-right: 100px; */
+}
+
+.menubarMenu .menu a {
+  color: white;
+}
+
+.menubarMenu .menu a:hover {
+  color: #6ace6a;
+}
