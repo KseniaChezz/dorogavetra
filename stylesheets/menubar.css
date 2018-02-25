@@ -1,14 +1,14 @@
 .menubar, .menubarContact, .menubarMenu {
   display: inline-flex;
   justify-content: flex-start;
-  width: 100vw;
+  width: 100%;
 }
 
 .menubar {
   position: fixed;
   flex-direction: column;
   top: 0;
-  z-index: 2;
+  z-index: 3;
 }
 
 .menubarContact {
