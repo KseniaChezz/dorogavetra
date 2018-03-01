@@ -138,27 +138,26 @@
 
 .mainSection.three {
   top: -75px;
-  height: 748px;
-  background-color: rgba(240,0,0,.3);
+  /* height: 748px; */
+  height: 766px;
+  background-color: white;
 }
 
 .mainSection.three section {
+  width: 84%;
   margin-top: 102px;
   padding: 0;
-  background-color: rgba(240,0,0,.3);
 }
 
 .mainSection.three section section {
   margin-top: 51px;
 }
 
-div.first,
-div.second {
+div.first {
   display: inline-flex;
   justify-content: space-between;
   margin-bottom: 20px;
 }
-
 
 div.first div {
   width: calc(100% / 3 - 25px);
@@ -175,57 +174,84 @@ div.first div p:first-child {
 }
 
 div.second {
-  align-items:flex-end;
-  margin-top: 10px;
-  padding: 0 15%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 15px;
 }
 
 div.second div {
-  margin: 0 auto;
+  display: inline-flex;
+  justify-content: space-between;
 }
 
-div.second div:first-child div {
+div.t {
+  margin-top: 10px;
+}
+
+div.sertificate {
+  width: calc(50% - 250px);
+  margin: 0 100px 0 150px;
+}
+
+div.study {
+  width: calc(50% - 100px);
+  margin: 0 120px 0 0px;
+}
+
+.sertificate div {
   width: 137px;
   height: 125px;
-  margin-bottom: 10px;
+  margin: 0 auto;
   background-image: url(../images/sertificate.svg);
   background-size: cover;
 }
 
-div.second div:last-child div {
+.study div {
   width: 117px;
   height: 160px;
-  margin-bottom: 10px;
+  margin: 0 auto;
   background-image: url(../images/study.svg);
   background-size: cover;
 }
 
-div.second div:first-child {
-  width: calc(100% / 2 - 60px);
+.sertificate.s {
+  align-items: flex-end;
 }
 
-div.second div:last-child {
-  width: calc(100% / 2 + 1px);
-}
 
-/* .discount {
+
+.line {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
   width: 100%;
-  height: 500px;
-  background-color: rgba(250,0,0,.3);
-} */
-
-/* .star {
-  width: 50px;
   height: 50px;
-  background-image: url(../images/star.svg);
-  background-size: cover;
-} */
+  margin-top: 50px;
+}
 
-/* hr {
+hr {
+  position: relative;
+  width: 100%;
+  height: 16px;
   border: none;
   background-color: black;
   color: black;
-  height: 10px;
-} */
+}
+
+.star {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 14%;
+  background-image: url(../images/star.svg);
+  background-size: cover;
+}
+
+.discount {
+  display: flex;
+  justify-content: center;
+  width: 84%;
+  margin: 7px auto 0;
+  padding-left: 8%;
+  text-align: center;
+}
