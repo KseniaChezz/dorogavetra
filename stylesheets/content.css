@@ -329,9 +329,8 @@ hr {
 
 .mainSection.five {
   top: -101px;
-  height: 425px;
+  height: 466px;
   background-color: white;
-  /* background-color: rgba(250,0,0,.3); */
 }
 
 .mainSection.five section {
@@ -365,4 +364,125 @@ hr {
 
 .mainSection.five section p {
   margin: 43px 8% 0;
+}
+
+
+/* Six */
+
+.lineSectionSix {
+  position: absolute;
+  display: flex;
+  width: 1503px;
+  height: 1478px;
+  top: 4178px;
+  left: -121px;
+  background-image: url(../images/car.svg);
+  background-size: cover;
+  z-index: 2;
+}
+
+.mainSection.six {
+  position: relative;
+  top: -140px;
+  height: 1243px;
+  color: white;
+  background-image: url(../images/backgroundBlack3.svg);
+  background-size: cover;
+  z-index: 1;
+}
+
+.mainSection.six section {
+  margin-top: 240px;
+  padding: 0;
+}
+
+.mainSection.six section div {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 40%;
+  margin-bottom: 53px;
+}
+
+.mainSection.six section div:nth-child(2),
+.mainSection.six section div:nth-child(4) {
+  margin-left: 60%;
+}
+
+.mainSection.six section div:last-child {
+  margin-top: -34px;
+}
+
+
+/* Seven */
+
+.mainSection.seven {
+  position: relative;
+  top: -138px;
+  height: 914px;
+  background-color: white;
+}
+
+.mainSection.seven section {
+  width: 84%;
+  margin-top: 142px;
+  padding: 0;
+}
+
+.mainSection.seven section section {
+  margin-top: 51px;
+  width: 100%;
+}
+
+.mainSection.seven section section div.first {
+  display: inline-flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.second2 {
+  display: inline-flex;
+  justify-content: space-between;
+  margin: 45px 12% 0;
+}
+
+.mainSection.seven section section div.first div,
+.second2 div {
+  margin: 0 auto;
+  width: calc(100% / 4 - 35px);
+}
+
+.mainSection.seven section section div.first div:nth-child(1) div,
+.mainSection.seven section section div.first div:nth-child(2) div,
+.mainSection.seven section section div.first div:nth-child(3) div,
+.mainSection.seven section section div.first div:nth-child(4) div,
+.mainSection.seven section section div.second2 div:nth-child(1) div,
+.mainSection.seven section section div.second2 div:nth-child(2) div,
+.mainSection.seven section section div.second2 div:nth-child(3) div {
+  width: 158px;
+  height: 158px;
+  background-size: cover;
+  z-index: 1;
+  margin-bottom: 12px;
+}
+
+.mainSection.seven section section div.first div:nth-child(1) div {background-image: url(../images/img1.svg);}
+.mainSection.seven section section div.first div:nth-child(2) div {background-image: url(../images/img2.svg);}
+.mainSection.seven section section div.first div:nth-child(3) div {background-image: url(../images/img3.svg);}
+.mainSection.seven section section div.first div:nth-child(4) div {background-image: url(../images/img4.svg);}
+.mainSection.seven section section div.second2 div:nth-child(1) div {background-image: url(../images/img5.svg);}
+.mainSection.seven section section div.second2 div:nth-child(2) div {background-image: url(../images/img6.svg);}
+.mainSection.seven section section div.second2 div:nth-child(3) div {background-image: url(../images/img7.svg);}
+
+
+.mainSection.seven .line2 {
+  position: absolute;
+  width: 687px;
+  height: 245px;
+  bottom: 0px;
+  right: -287px;
+  background-image: url(../images/line2.svg);
+  background-size: cover;
+  z-index: 1;
+
 }
