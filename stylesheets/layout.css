@@ -16,7 +16,7 @@ body {
 
 .back {
   position: absolute;
-  margin: 0 auto;
+  margin: 107px auto 0;
   width: 1200px;
   height: 11858px;
   background-image: url(../images/web.png);
