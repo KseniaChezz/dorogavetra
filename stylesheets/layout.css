@@ -35,3 +35,8 @@ body {
   background-color: #6ace6a;
   border-radius: 13px;
 }
+
+.btn:hover,
+.btn:active {
+  background-color: #27af27;
+}

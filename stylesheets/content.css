@@ -32,7 +32,6 @@
   margin-left: -85px;
   background-image: url(../images/line1.svg);
   background-size: cover;
-
 }
 
 
@@ -88,7 +87,8 @@
 .mainSection.nine h1 + p,
 .mainSection.ten h1 + p,
 .mainSection.twelve section section div h2,
-.mainSection.thirteen section p {
+.mainSection.thirteen section p,
+.mainSection.footer section div h2 {
   font-family: 'Roboto Slab', sans-serif;
   font-size: 24px;
   line-height: 32px;
@@ -552,6 +552,11 @@ hr {
   z-index: 1;
 }
 
+.mainSection.ten a,
+.mainSection.thirteen a {
+  color: #6ace6a;
+}
+
 .mainSection.ten section {
   width: 84%;
   margin-top: 138px;
@@ -683,8 +688,8 @@ section.movie div div.m {
 .lineE {
   position: absolute;
   display: flex;
-  width: 1380px;
-  height: 1381px;
+  width: 1349px;
+  height: 1349px;
   top: 9987px;
   left: -79px;
   background-image: url(../images/lineE.svg);
@@ -732,17 +737,66 @@ section.movie div div.m {
 /* footer */
 
 .mainSection.footer {
+  display: flex;
   top: -267px;
   height: 226px;
   color: white;
-  /* background-color: black; */
-  background-color: rgba(250,0,0,.3);
-
+  background-color: black;
+  /* background-color: rgba(250,0,0,.3) */
 }
 
 .mainSection.footer section {
-  margin-top: 128px;
-  padding: 0 ;
-  background-color: rgba(250,0,0,.3);
+  display: inline-flex;
+  justify-content: space-between;
+  width: 84%;
+  margin-top: 37px;
+  padding: 0;
+}
 
+.mainSection.footer section div:first-child {
+  width: calc(50% - -165px);
+  margin-right: 40px;
+}
+
+.mainSection.footer section div div.phone,
+.mainSection.footer section div div.mail {
+  display: inline-flex;
+  align-items: center;
+}
+
+.mainSection.footer section div div.phone div {
+  width: 13px;
+  height: 18px;
+  margin-right: 15px;
+  background-image: url(../images/phoneB.svg);
+  background-size: cover;
+}
+
+.mainSection.footer section div div.mail div {
+  width: 24px;
+  height: 18px;
+  height: 18px;margin-right: 15px;
+  background-image: url(../images/mailB.svg);
+  background-size: cover;
+}
+
+.mainSection.footer section div.social div{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 5px;
+}
+
+.mainSection.footer section div.social div a div {
+  width: 42px;
+  height: 42px;
+  background-size: cover;
+}
+
+.mainSection.footer section div.social div a:nth-child(1) div {background-image: url(../images/imgS1.svg);}
+.mainSection.footer section div.social div a:nth-child(2) div {background-image: url(../images/imgS2.svg);}
+.mainSection.footer section div.social div a:nth-child(3) div {background-image: url(../images/imgS3.svg);}
+.mainSection.footer section div.social div a:nth-child(4) div {background-image: url(../images/imgS4.svg);}
+
+.mainSection.footer section div.social h2 {
+  color: black;
 }

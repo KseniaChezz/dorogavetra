@@ -94,3 +94,8 @@
 .menubarMenu .menu a:hover {
   color: #6ace6a;
 }
+
+
+.mainSection.two a::focus {
+  color: #6ace6a
+}
