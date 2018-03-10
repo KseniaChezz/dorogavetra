@@ -72,14 +72,13 @@
 }
 
 .mainButton .circle .buttonG .buttonGeneral a {
-  padding-top: 80px;
+  padding-top: 79px;
   font-weight: bold;
 }
 
 .buttonGeneral:hover,
 .buttonGeneral:active {
   background: #27af27;
-  color: white;
 }
 
 .mainButton .line {
