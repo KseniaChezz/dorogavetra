@@ -19,16 +19,69 @@
 }
 
 .mainButton .circle {
+  display: flex;
+  position: relative;
+  text-align: center;
+  flex-direction: column;
+  width: 350px;
+  height: 350px;
+  /* background-image: url(../images/circle1.svg);
+  background-size: cover; */
+  /* background-color: white; */
+  border: 13px solid black;
+  border-radius: 180px;
+}
+
+.mainButton .circle .buttonBack {
+  position: absolute;
+  top: -10px;
+  left: -10px;
   width: 345px;
   height: 345px;
-  background-image: url(../images/circle1.svg);
-  background-size: cover;
+  background-color: white;
+  z-index: -1;
+  border-radius: 180px;
+}
+
+.mainButton .circle p:first-child {
+  margin-top: 76px;
+}
+
+.mainButton .circle h1 + p {
+  margin-top: 12px;
+}
+
+.mainButton .circle .buttonG {
+  position: absolute;
+  display: flex;
+  align-items: flex-end;
+  height: 93px;
+  left: -11px;
+  bottom: 0;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.mainButton .circle .buttonG .buttonGeneral {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+	height: 175px;
+	background: #6ace6a;
+	border-radius: 0 0 175px 175px;
+}
+
+.buttonGeneral:hover,
+.buttonGeneral:active {
+  background: #27af27;
+  color: white;
 }
 
 .mainButton .line {
   width: 442px;
   height: 637px;
-  margin-top: -14px;
+  margin-top: -12px;
   margin-left: -85px;
   background-image: url(../images/line1.svg);
   background-size: cover;
@@ -74,9 +127,9 @@
 /* One */
 
 .mainSection.one {
-  top: -48px;
+  margin-top: -48px;
   width: 101%;
-  height: 530px;
+  height: 578px;
   background-image: url(../images/backgroundWhite1.svg);
   background-size: cover;
   z-index: 1;
@@ -100,8 +153,8 @@
 
 .mainSection.two {
   color: white;
-  top: -75px;
-  height: 1110px;
+  margin-top: -75px;
+  height: 1090px;
   background-image: url(../images/backgroundBlack1.svg);
   background-size: cover;
   z-index: 1;
@@ -109,6 +162,7 @@
 
 .mainSection.two section {
   padding: 0;
+  margin-top: 136px;
 }
 
 .mainSection.two section section {
@@ -117,24 +171,13 @@
   justify-content: space-between;
   width: 100%;
   height: 706px;
-  margin: 50px auto 0;
+  margin: 55px auto 0;
 }
 
 .mainSection.two section section div {
   width: calc(100% / 4 - 35px);
   margin: 0 auto;
 }
-
-/* .mainSection.two section section div div {
-  width: 50px;
-  height: 50px;
-  color: black;
-  font-family: 'Roboto Slab', sans-serif;
-  font-size: 43px;
-  font-weight: bold;
-  background-color: white;
-  border-radius: 50%;
-} */
 
 .mainSection.two section section div div,
 .mainSection.four section div div {
@@ -156,7 +199,6 @@
 /* Three */
 
 .mainSection.three {
-  top: -75px;
   height: 792px;
   background-color: white;
 }
@@ -168,7 +210,7 @@
 }
 
 .mainSection.three section section {
-  margin-top: 51px;
+  margin-top: 55px;
 }
 
 div.first {
@@ -182,7 +224,7 @@ div.first div {
 }
 
 div.first div p + p {
-  margin-top: 10px;
+  margin-top: 32px;
 }
 
 div.first div p:first-child {
@@ -195,7 +237,7 @@ div.second {
   display: flex;
   flex-direction: column;
   width: 100%;
-  margin-top: 15px;
+  margin-top: 5px;
 }
 
 div.second div {
@@ -204,7 +246,7 @@ div.second div {
 }
 
 div.t {
-  margin-top: 10px;
+  margin-top: 21px;
 }
 
 div.sertificate {
@@ -236,7 +278,6 @@ div.study {
 .sertificate.s {
   align-items: flex-end;
 }
-
 
 
 .lineH {
@@ -282,14 +323,13 @@ hr {
   display: flex;
   width: 66px;
   height: 826px;
-  left: 23%;
+  left: calc(23% - 2px);
   background-image: url(../images/lineNumber.svg);
   background-size: cover;
   z-index: 1;
 }
 
 .mainSection.four {
-  top: -104px;
   width: 101%;
   height: 827px;
   color: white;
@@ -311,7 +351,7 @@ hr {
 }
 
 .mainSection.four h1 + div {
-  margin-top: 41px;
+  margin-top: 55px;
 }
 
 .mainSection.four section div {
@@ -330,9 +370,9 @@ hr {
 /* Five */
 
 .mainSection.five {
-  top: -101px;
   height: 466px;
   background-color: white;
+  margin-bottom: 107px;
 }
 
 .mainSection.five section {
@@ -378,10 +418,10 @@ hr {
 .lineSectionSix {
   position: absolute;
   display: flex;
-  width: 1503px;
-  height: 1478px;
-  top: 4178px;
-  left: -121px;
+  width: 1399px;
+  height: 1358px;
+  top: 4205px;
+  left: 20px;
   background-image: url(../images/car.svg);
   background-size: cover;
   z-index: 2;
@@ -389,8 +429,8 @@ hr {
 
 .mainSection.six {
   position: relative;
-  top: -140px;
-  height: 1243px;
+  margin-top: -140px;
+  height: 1258px;
   color: white;
   background-image: url(../images/backgroundBlack3.svg);
   background-size: cover;
@@ -398,7 +438,7 @@ hr {
 }
 
 .mainSection.six section {
-  margin-top: 240px;
+  margin-top: 228px;
   padding: 0;
 }
 
@@ -424,14 +464,14 @@ hr {
 
 .mainSection.seven {
   position: relative;
-  top: -138px;
-  height: 914px;
+  /* top: -138px; */
+  height: 1014px;
   background-color: white;
 }
 
 .mainSection.seven section {
   width: 84%;
-  margin-top: 142px;
+  margin-top: 120px;
   padding: 0;
 }
 
@@ -485,7 +525,7 @@ hr {
   position: absolute;
   width: 687px;
   height: 245px;
-  bottom: -65px;
+  bottom: 0px;
   right: -287px;
   background-image: url(../images/line2.svg);
   background-size: cover;
@@ -496,9 +536,9 @@ hr {
 /* Eight */
 
 .mainSection.eight {
-  top: -192px;
-  height: 963px;
-  background-image: url(../images/map.svg);
+  top: -92px;
+  height: 700px;
+  background-image: url(../images/map2.svg);
   background-size: cover;
   z-index: 1;
 }
@@ -514,7 +554,7 @@ hr {
   position: absolute;
   width: 595px;
   height: 151px;
-  top: 0;
+  top: -34px;
   left: -179px;
   background-image: url(../images/line3.svg);
   background-size: cover;
@@ -522,20 +562,24 @@ hr {
 
 .mainSection.nine {
   position: relative;
-  top: -223px;
-  height: 1012px;
+  margin-top: -102px;
+  height: 1190px;
   background-color: white;
 }
 
 .mainSection.nine section {
-  margin-top: 168px;
+  margin-top: 124px;
   padding: 0 10%;
+}
+
+.mainSection.nine section p {
+  margin-top: 32px;
 }
 
 .we {
   width: 100%;
   height: 406px;
-  margin: 50px auto 0;
+  margin: 65px auto 0;
   background-image: url(../images/we.svg);
   background-size: cover;
 }
@@ -608,21 +652,20 @@ hr {
 
 .mainSection.eleven {
   top: -266px;
-  height: 724px;
+  height: 732px;
   background-color: white;
-  /* background-color: rgba(250,0,0,.3); */
 }
 
 .mainSection.eleven section {
   position: relative;
-  margin-top: 65px;
+  margin-top: 102px;
 }
 
 .mainSection.eleven div.lineP {
   position: absolute;
   width: 100vw;
   height: 16px;
-  top: 136px;
+  top: 173px;
   background-image: url(../images/lineP.svg);
   background-size: cover;
   z-index: 1;
@@ -630,7 +673,7 @@ hr {
 
 .mainSection.eleven div.gallery2 {
   width: 100vw;
-  height: 710px;
+  height: 552px;
   margin-top: 35px;
   background-color: rgba(0,0,0,.5);
 }
@@ -639,8 +682,8 @@ hr {
 /* Twelve */
 
 .mainSection.twelve {
-  top: -267px;
-  height: 993px;
+  margin-top: -268px;
+  height: 1030px;
   color: white;
   background-image: url(../images/backgroundBlack5.svg);
   background-size: cover;
@@ -648,7 +691,7 @@ hr {
 }
 
 .mainSection.twelve section {
-  margin-top: 125px;
+  margin-top: 121px;
   padding: 0 ;
   color: white;
 }
@@ -666,7 +709,7 @@ hr {
 }
 
 .mainSection.twelve section section div h2 + p {
-  margin-top: 2px;
+  margin-top: 3px;
 }
 
 .mainSection.twelve section section + section  {
@@ -678,6 +721,7 @@ section.movie div {
   width: 100%;
   margin: 0 auto;
 }
+
 section.movie div div.m {
   width: 100%;
   height: 267px;
@@ -688,10 +732,10 @@ section.movie div div.m {
 .lineE {
   position: absolute;
   display: flex;
-  width: 1349px;
-  height: 1349px;
-  top: 9987px;
-  left: -79px;
+  width: 1341px;
+  height: 1335px;
+  top: 9868px;
+  left: -47px;
   background-image: url(../images/lineE.svg);
   background-size: cover;
   z-index: 2;
@@ -700,7 +744,8 @@ section.movie div div.m {
 /* Thirteen */
 
 .mainSection.thirteen {
-  top: -267px;
+  margin-top: -10px;
+  margin-bottom: 41px;
   height: 572px;
   background-color: white;
 }
@@ -738,11 +783,9 @@ section.movie div div.m {
 
 .mainSection.footer {
   display: flex;
-  top: -267px;
   height: 226px;
   color: white;
   background-color: black;
-  /* background-color: rgba(250,0,0,.3) */
 }
 
 .mainSection.footer section {
