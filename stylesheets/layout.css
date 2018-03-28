@@ -54,9 +54,9 @@ body {
   z-index: 3; */
 }
 
-.cost     { top: calc(1198px - 158px); }
-.mapAd    { top: calc(6489px - 158px); }
-.about    { top: calc(7198px - 158px); }
-.gallery3 { top: calc(9144px - 158px); }
-.review   { top: calc(9893px - 158px); }
+.cost     { top: calc(1198px - 158px);  }
+.mapAd    { top: calc(6489px - 158px);  }
+.about    { top: calc(7198px - 158px);  }
+.gallery3 { top: calc(9144px - 158px);  }
+.review   { top: calc(9893px - 158px);  }
 .cont     { top: calc(10920px - 158px); }

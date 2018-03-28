@@ -241,7 +241,7 @@ div.second {
   display: flex;
   flex-direction: column;
   width: 100%;
-  margin-top: 5px;
+  /* margin-top: 5px; */
 }
 
 div.second div {
@@ -260,7 +260,7 @@ div.sertificate {
 
 div.study {
   width: calc(50% - 100px);
-  margin: 0 120px 0 0px;
+  margin: 0 100px 0 0px;
 }
 
 .sertificate div {
