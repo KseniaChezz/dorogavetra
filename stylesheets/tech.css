@@ -1,0 +1,87 @@
+.mainBody.technique {
+  width: 100%;
+}
+
+.teckN {
+  display: flex;
+  position: absolute;
+  width: 1366px;
+  height: 2617px;
+  top: -23px;
+  background-image: url(../images/techBackground.png);
+  background-size: cover;
+  z-index: -1;
+}
+
+.cover {
+  display: flex;
+  width: 100vw;
+  height: calc(90vh - 100px);
+  background-image: url(../images/coverT.png);
+  background-size: cover;
+}
+
+.technique .mainSection {
+  height: 360px;
+}
+
+.technique .mainSection section {
+  width: 848px;
+  margin: 100px auto 0;
+  padding: 0;
+  text-align: left;
+}
+
+.mainCard section {
+  position: relative;
+  margin: 0px auto 20px;
+  width: 848px;
+  padding: 0 40px;
+  border: 4px solid black;
+  background-color: white;
+}
+
+.mainCard.cOne section div.photo,
+.mainCard.cTwo section div.photo {
+  width: calc(100% + 80px);
+  height: 360px;
+  margin: 0 -40px 40px;
+  background-image: url(../images/photoTech1.png);
+  background-size: cover;
+}
+
+.mainCard.cTwo section div.photo { background-image: url(../images/photoTech1.png); }
+
+.tegData {
+  display: inline-flex;
+  justify-content:space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.mainCard section h1 + p {
+	margin-top: 20px;
+}
+
+.mainCard section p + p {
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.technique .mainSection.footer {
+  height: 226px;
+  margin-top: 40px;
+}
+.technique .mainSection.footer section {
+  /* text-align: center; */
+  margin: 37px auto;
+}
+
+.technique .mainSection.footer section div.social div {
+  margin: 8px 5px 0;
+}
+
+.technique .mainSection.footer section div:first-child {
+  margin-right: 15px;
+}

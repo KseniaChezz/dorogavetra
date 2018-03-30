@@ -72,7 +72,6 @@
   width: 200px;
   height: 54px;
   margin-left: 7vw;
-  /* margin-left: 100px; */
   background-image: url(../images/logo.svg);
   background-size: cover;
 }
@@ -83,7 +82,6 @@
   width: calc(100vw - 14vw - 190px + 120px);
   margin-left: 88px;
   margin-right: 7vw;
-  /* margin-right: 100px; */
 }
 
 .menubarMenu .menu a {
@@ -94,6 +92,27 @@
   color: #6ace6a;
 }
 
+.menubarMenu .ts {
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.menubarMenu .ts a,
+.menubarMenu .ts div {
+  margin-right: 12px;
+}
+
+.menubarMenu .ts div {
+  width: 10px;
+  height: 16px;
+  background-image: url(../images/arrow.svg);
+  background-size: cover;
+}
+
+.menubarMenu .ts .tec {
+  color: #6ace6a;
+  font-weight: bold;
+}
 
 .mainSection.two a::focus {
   color: #6ace6a

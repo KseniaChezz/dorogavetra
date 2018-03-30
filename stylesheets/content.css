@@ -817,7 +817,10 @@ section.movie div div.m {
 .mainSection.footer section div div.mail {
   display: inline-flex;
   align-items: center;
+  margin-top: 5px;
+
 }
+
 
 .mainSection.footer section div div.phone div {
   width: 13px;
