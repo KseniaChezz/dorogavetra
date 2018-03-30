@@ -6,7 +6,7 @@
   overflow: hidden;
   width: 100%;
   /* text-align: center; */
-  width: 1440px;
+  width: 1366px;
   margin: 120px auto 0;
 }
 
@@ -83,8 +83,8 @@
 }
 
 .mainButton .line {
-  width: 442px;
-  height: 637px;
+  width: 495px;
+  height: 710px;
   margin-top: -12px;
   margin-left: -85px;
   background-image: url(../images/line1.svg);
@@ -158,7 +158,7 @@
 .mainSection.two {
   color: white;
   margin-top: -75px;
-  height: 1090px;
+  height: 1105px;
   background-image: url(../images/backgroundBlack1.svg);
   background-size: cover;
   z-index: 1;
@@ -169,18 +169,26 @@
   margin-top: 136px;
 }
 
-.mainSection.two section section {
+.mainSection.two section section.mainSectionTwoTop,
+.mainSection.two section section.mainSectionTwoBottom {
   position: relative;
   display: flex;
   justify-content: space-between;
   width: 100%;
-  height: 706px;
   margin: 55px auto 0;
 }
 
-.mainSection.two section section div {
-  width: calc(100% / 4 - 35px);
+.mainSection.two section section.mainSectionTwoBottom  {
   margin: 0 auto;
+}
+
+.mainSection.two section section div {
+  width: calc(100% / 4 - 34px);
+  margin: 0 auto;
+}
+
+.mainSection.two section section.mainSectionTwoBottom div:nth-child(2) {
+  width: calc(100% / 4 - 29px);
 }
 
 .mainSection.two section section div div,
@@ -424,7 +432,7 @@ hr {
   display: flex;
   width: 1399px;
   height: 1358px;
-  top: 4205px;
+  top: 4281px;
   left: 20px;
   background-image: url(../images/car.svg);
   background-size: cover;
@@ -593,7 +601,7 @@ hr {
 
 .mainSection.ten {
   top: -266px;
-  height: 1044px;
+  height: 990px;
   color: white;
   background-image: url(../images/backgroundBlack4.svg);
   background-size: cover;
@@ -736,10 +744,10 @@ section.movie div div.m {
 .lineE {
   position: absolute;
   display: flex;
-  width: 1341px;
-  height: 1335px;
+  width: 1353px;
+  height: 1353px;
   top: 9868px;
-  left: -47px;
+  left: -63px;
   background-image: url(../images/lineE.svg);
   background-size: cover;
   z-index: 2;
