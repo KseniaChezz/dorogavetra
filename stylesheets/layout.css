@@ -44,6 +44,7 @@ body {
 .cost,
 .mapAd,
 .about,
+.order,
 .gallery3,
 .review,
 .cont {
@@ -57,6 +58,7 @@ body {
 .cost     { top: calc(1198px - 100px);  }
 .mapAd    { top: calc(6489px - 100px + 15px);  }
 .about    { top: calc(7198px - 100px + 15px);  }
+.order    { top: calc(3927px - 100px - 39px);  }
 .gallery3 { top: calc(9144px - 100px - 39px);  }
 .review   { top: calc(9893px - 100px - 39px);  }
 .cont     { top: calc(10920px - 100px - 39px); }
